@@ -1,0 +1,7 @@
+body {
+  display: block;
+  background-color:#DDD0C8;
+  color: #323232;
+  box-shadow: 0px 10px 30px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha) ;
+  font-size: 17px;
+}
