@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My visit card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <button onclick="shareCard()">Partager ma carte</button>
+    <div class="action-buttons">
+      <button onclick="contactVia('tel:+123456789')">Téléphone</button>
+      <button onclick="contactVia('https://wa.me/123456789')">WhatsApp</button>
+      <button onclick="contactVia('mailto:alexisariasdev@gmail.com')">E-mail</button>
+    </div>
+    <button onclick="downloadVCard()">Enregister le contact</button>
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/votre_nom" target="_blank">LinkedIn</a>
+      <a href="https://github.com/votre_nom" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
